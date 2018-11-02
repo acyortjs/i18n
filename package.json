@@ -1,0 +1,32 @@
+{
+  "name": "@acyort/i18n",
+  "version": "0.1.0",
+  "description": "Node i18n",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acyortjs/i18n.git"
+  },
+  "keywords": [
+    "i18n",
+    "node"
+  ],
+  "author": "LoeiFy <LoeiFy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acyortjs/i18n/issues"
+  },
+  "homepage": "https://github.com/acyortjs/i18n#readme",
+  "dependencies": {
+    "js-yaml": "^3.12.0",
+    "sprintf-js": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
