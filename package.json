@@ -3,8 +3,16 @@
   "version": "0.1.0",
   "description": "Node i18n",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:lint && npm run test:cover",
+    "test:unit": "mocha --reporter dot --require intelli-espower-loader ./test",
+    "test:lint": "eslint .",
+    "test:cover": "nyc npm run test:unit",
+    "coverage": "nyc report --reporter=lcov npm run test:unit"
   },
   "repository": {
     "type": "git",
@@ -28,6 +36,10 @@
   "devDependencies": {
     "eslint": "^5.8.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.14.0",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "power-assert": "^1.6.1"
   }
 }
