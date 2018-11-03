@@ -1,5 +1,8 @@
 # i18n
 
+[![Build Status](https://travis-ci.org/acyortjs/i18n.svg?branch=master)](https://travis-ci.org/acyortjs/i18n)
+[![codecov](https://codecov.io/gh/acyortjs/i18n/branch/master/graph/badge.svg)](https://codecov.io/gh/acyortjs/i18n)
+
 Node i18n
 
 ## Install
