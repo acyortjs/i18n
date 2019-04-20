@@ -1,5 +1,4 @@
 /* eslint no-underscore-dangle: 0 */
-/* global describe it */
 
 const { join } = require('path')
 const assert = require('power-assert')
